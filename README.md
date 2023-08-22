@@ -29,8 +29,8 @@ where district like 'K%a' and district not like '% %';
 
 ### Задание 2
 select *
-from rental
-where rental_date between '2005-06-15 00:00:00' and '2005-06-18 23:59';
+from payment
+where amount >= 10 and payment_date between '2005-06-15 00:00:00' and '2005-06-18 23:59';
 
 ### Задание 3
 select *
